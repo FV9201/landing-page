@@ -14,7 +14,7 @@ html {
   background-color: #1f2937;
 }
 
-.main-header > * {
+.main-header .main-header__logo {
   flex: 1;
 }
 
@@ -23,12 +23,10 @@ html {
   align-items: center;
   justify-content: flex-end;
   list-style: none;
-  flex-basis: 0;
 }
 
 .main-header .main-header__navegation-links li {
   margin-left: 2rem;
-  flex: 0 1 auto;
 }
 
 .main-header .main-header__navegation-links li a {
@@ -92,4 +90,49 @@ html {
 .main-section .main-section__image {
   width: 600px;
   height: auto;
+  border-radius: 1rem;
 }
+
+/* ------------------------------------------------------------------------------------------- */
+
+.random-information-section {
+  padding: 4rem 14rem;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.random-information-section__title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+.random-information-section__content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-information-section__content > article {
+  text-align: center;
+  flex-basis: 0;
+  margin: 2rem;
+}
+
+.random-information-section__content > article > p {
+  margin-top: 0.2rem;
+}
+
+.random-information-section__content > article > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 1rem;
+}
+
+.random-information-section__content > article > p {
+  color: #1f2937;
+}
+
+/* ------------------------------------------------------------------------------------------- */
