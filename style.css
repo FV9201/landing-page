@@ -211,3 +211,16 @@ html {
 }
 
 /* ------------------------------------------------------------------------------------------- */
+
+.main-footer {
+  padding: 2.5rem 0rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+.main-footer__copyright > p {
+  color: #f9faf8;
+}
